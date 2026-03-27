@@ -1,0 +1,28 @@
+# Ignore Python cache directories
+
+**pycache**/
+
+# Ignore compiled Python files
+
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Python bytecode in subfolders
+
+**/**pycache**/
+
+# Optional: ignore environment files (good practice)
+
+.env
+venv/
+env/
+
+# Optional: ignore IDE/editor files
+
+.vscode/
+.idea/
+
+# Keep all Python source files
+
+!*.py
